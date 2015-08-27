@@ -1,0 +1,22 @@
+{
+  "name": "underscore",
+  "version": "1.1.2",
+  "description": "Lean version of underscore/loadsh/jquery",
+  "main": "underscore.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kasparsb/underscore.git"
+  },
+  "keywords": [
+    "underscore",
+    "utility"
+  ],
+  "author": "Kaspars Bulins (kasparsb@hotmail.com)",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/kasparsb/underscore/issues"
+  }
+}
