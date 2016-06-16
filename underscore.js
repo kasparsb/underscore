@@ -231,6 +231,15 @@
 
         extend: function(a, b) {
             return $.extend(a, b);
+        },
+
+        data: function(el, name, data) {
+            if (typeof data != 'undefined') {
+                $(el).data(name, data);
+            }
+            else {
+                return $(el).data(name);
+            }
         }
     }
 });
