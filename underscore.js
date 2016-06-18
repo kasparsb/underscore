@@ -221,6 +221,10 @@
             return $(el).width();
         },
 
+        outerWidth: function(el) {
+            return $(el).outerWidth();
+        },
+
         height: function(el) {
             return $(el).height();
         },
